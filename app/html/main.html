@@ -1,0 +1,14 @@
+<form ng-submit="extractData()">
+    <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-pencil"></i></span>
+        <input type="text"
+               ng-model="model.userInput"
+               class="form-control" placeholder="log life" aria-describedby="basic-addon1" >
+         <span class="input-group-btn">
+            <button class="btn btn-default" type="button" >Go!</button>
+          </span>
+    </div>
+</form>
+
+<hr><label>result:</label>
+{{data}}
